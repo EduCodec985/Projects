@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4a4716aec9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="form">
+        <form action="https://api.staticforms.xyz/submit" method="post">
+            <h2 class="title">Cadastrar</h2>
+
+            <label for="username">Nome</label>
+            <div class="input">
+                <i class="fa-solid fa-circle-user"></i>
+                <input type="text" id="username" name="username" placeholder="Username">
+            </div>
+
+            <label for="email" class="email">Email</label>
+            <div class="input">
+                <i class="fa-solid fa-envelope"></i>
+                <input type="email" id="email" name="email" placeholder="Email">
+            </div>
+
+            <label for="senha">Senha</label>
+            <div class="input">
+                <i class="fa-solid fa-lock"></i>
+                <input type="password" id="senha" placeholder="Password">
+            </div>
+
+            <div class="btn">
+                <a class="button" type="submit" href="#">Cadastrar</a>
+                <input type="hidden" name="accessKey" value="3aac96cd-9ccb-4854-91c3-c4136386afe9">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
